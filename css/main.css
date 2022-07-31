@@ -32,7 +32,7 @@ body {
     flex-direction: column;
     margin: 0;
     font-family: "Public Sans","Arial",sans-serif;
-    overflow-x: hidden
+    overflow-x: hidden;
 }
 
 .container {
@@ -335,7 +335,7 @@ main {
     .hero-wrap__phone-mobile{
         display: block;
         position: absolute;
-        top: calc(50% - 378px);
+        top: calc(50% - 416px);
         right: 0;
     }
     
@@ -352,7 +352,7 @@ main {
     .hero-wrap__phone-mobile{
         display: block;
         position: absolute;
-        top: calc(50% - 378px);
+        top: calc(50% - 417px);
         right: 0;
         left: 0;
     }
