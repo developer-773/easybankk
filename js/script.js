@@ -1,0 +1,4 @@
+var modal=document.getElementById("myModal"),btn=document.getElementById("myBtn"),closee=document.getElementsByClassName("close")[0],hamburger=document.getElementsByClassName("hamburger")[0];btn.onclick=function(){modal.style.display="block",hamburger.style.display="none",closee.style.display="block"},closee.onclick=function(){hamburger.style.display="block",modal.style.display="none",closee.style.display="none"},
+setTimeout(function(){let a="Agar saytimizdan xato topsangiz, bizga yozing.";!0==confirm(a)?window.open("https://github.com/developer-773/cofferoasters-subscription-responsive-/issues","_blank"):a="You canceled!"},3e3);
+function myFunction(a){if(a.matches){let b=document.querySelectorAll(".modal");for(var c of b)c.remove()}else for(var c of b)c.add()};var x=window.matchMedia("(min-width: 655px)");myFunction(x),x.addEventListener(myFunction);
+
