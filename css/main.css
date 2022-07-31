@@ -846,6 +846,13 @@ main {
     .easybank__item{
         max-width: 330px;
     }
+
+    .articles__item::before,
+    .articles__item:nth-child(2)::before,
+    .articles__item:nth-child(3)::before,
+    .articles__item:nth-child(4)::before{
+        display: none;
+    }
 }
 
 
