@@ -253,7 +253,7 @@ main {
     .hero-wrap__phone-mobile{
         display: block;
         position: absolute;
-        top: calc(50% - 280px);
+        top: calc(50% - 520px);
         right: 1%;
     }
 }
@@ -998,6 +998,8 @@ main {
         width: 100%;
         max-width: 281px;
         margin-bottom: 32px;
+        margin-right: auto;
+        margin-left: auto;
     }
     
     .social-list__item{
